@@ -1,0 +1,17 @@
+/*Je veux que le texte de mes <h1> et <em> soit écrit en bleu*/
+h1,em
+{
+    color: blue;
+}
+
+/* pour changer un attribut particulier . + nom 
+Si vous utilisez des id (unique), lorsque vous définirez leurs propriétés 
+dans le fichier CSS, il faudra faire précéder le nom de l'id par un dièse (#) */
+.introduction
+{
+    color: blue;
+}
+.salutations
+{
+    color: blue;
+}

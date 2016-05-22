@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- En-tête de la page -->
+        <meta charset="utf-8" />
+        <title>Page 2</title>
+    </head>
+
+    <body>
+        <!-- Corps de la page --><h1>Bienvenue sur la page 2 !</h1>
+		<h1>Ma grande page</h1>
+		
+		<!-- avec info bulle : -->
+		<p>Bonjour. Souhaitez-vous visiter le 
+		<a href="http://www.siteduzero.com" title="Réservé aux débutants">
+		Site du Zéro</a> ?</p>
+		
+		<!-- avec lien ouvrant nouvelle page: -->
+		<p>Bonjour. Souhaitez-vous visiter le 
+		<a href="http://www.siteduzero.com" target="_blank">Site du Zéro</a> ?</p>
+
+		<!-- pour mettre adresse mail -->
+		<p><a href="mailto:votrenom@bidule.com">Envoyez-moi un e-mail !</a></p>
+		
+		<!-- fichier a telecharger -->
+		<p><a href="320146.rar">Télécharger le fichier</a></p>
+		
+		<!--afficher une photo :
+		alt : cela signifie « texte alternatif ».
+		On doit toujours indiquer un texte alternatif à l'image, 
+		c'est-à-dire un court texte qui décrit ce que contient l'image. 
+		texte sera affiché à la place de l'image si celle-ci ne peut pas être téléchargée
+		title (infobulle) n'est pas obligatoire --> 
+		<p>Voici une photo de moi:<br />
+		<img src="C:\Users\aurélie\Pictures\wallpaper\320146.jpg" alt="Photo de moi" 
+		title="J'ai le même costume"/>
+		</p>
+		
+		<!-- afficher mini photo (créé avec easythumbnail) -->
+		<p>    Vous souhaitez voir l'image dans sa taille d'origine ? Cliquez dessus !<br />
+			<a href="C:\Users\aurélie\Pictures\wallpaper\320146.jpg"><img src="C:\Users\aurélie\Pictures\wallpaper\tn_320146.jpg" alt="Photo de moi" title="Cliquez pour agrandir" /></a>
+		</p>
+		
+		<!-- Si elle n'apporte aucune information 
+		c'est juste une illustration pour décorer) : placez l'image dans un paragraphe.
+		Si elle apporte une information : placez l'image dans une figure. -->
+		<p>Connaissez-vous le logiciel Bloc-Notes ? On peut faire des sites web avec !</p>
+
+		<figure>
+			<img src="img/bloc_notes.png" alt="Bloc-Notes" />
+			<figcaption>Le logiciel Bloc-Notes</figcaption>
+		</figure>
+		
+		<p>
+			Aller directement à la partie traitant de :<br />
+			<a href="#cuisine">La cuisine</a><br />
+			<a href="#rollers">Les rollers</a><br />
+			<a href="#arc">Le tir à l'arc</a><br />
+		</p>
+		<h2 id="cuisine">La cuisine</h2>
+		</br></br></br></br></br></br></br></br></br></br></br></br></br>
+		<p>... (beaucoup de texte)< ...</p>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+		<h2 id="rollers">Les rollers</h2>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+		<p>... (beaucoup de texte) ...</p>
+</br></br></br></br></br></br></br></br></br></br></br>
+		<h2 id="arc">Le tir à l'arc</h2>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+		<p>... (beaucoup de texte) ...</p>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+	</body>
+</html>

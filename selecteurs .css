@@ -1,0 +1,56 @@
+/* * : sélecteur universel
+ */
+*
+{
+
+}
+/* Sélectionne toutes les balises sans exception. On l'appelle le sélecteur universel. */
+
+/* A B : une balise contenue dans une autre */
+h3 em
+{
+
+}
+/* Sélectionne toutes les balises <em> situées à l'intérieur d'une balise <h3>. 
+Notez qu'il n'y a pas de virgule entre les deux noms de balises. */
+
+/* Exemple de code HTML correspondant :
+<h3>Titre avec <em>texte important</em></h3> */
+
+/* A + B : une balise qui en suit une autre */
+h3 + p
+{
+
+}
+/* Sélectionne la première balise <p> située après un titre <h3>. */
+/* Exemple :
+<h3>Titre</h3>
+<p>Paragraphe</p> */
+
+/* A[attribut] : une balise qui possède un attribut */
+a[title]
+{
+
+}
+/* Sélectionne tous les liens <a> qui possèdent un attribut title. */
+/* Exemple :
+<a href="http://site.com" title="Infobulle"> */
+
+/* A[attribut="Valeur"] : une balise, un attribut et une valeur exacte */
+a[title="Cliquez ici"]
+{
+
+}
+/* Idem, mais l'attribut doit en plus avoir exactement pour valeur « Cliquez ici ». */
+/* Exemple :
+<a href="http://site.com" title="Cliquez ici"> */
+
+/* A[attribut*="Valeur"] : une balise, un attribut et une valeur */
+a[title*="ici"]
+{
+
+}
+/* Idem, l'attribut doit cette fois contenir dans sa valeur le mot « ici » 
+(peu importe sa position). */
+/* Exemple :
+<a href="http://site.com" title="Quelque part par ici"> */
